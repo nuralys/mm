@@ -1,0 +1,52 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Model/Gallery.php:validation for field title
+msgid "Введите название товара"
+msgstr ""
+
+#: Model/Gallery.php:validation for field img
+#: Model/News.php:validation for field img
+msgid "Ошибка загрузки картинки"
+msgstr ""
+
+#: Model/Gallery.php:validation for field img
+msgid "Разрешены к загрузке картинки JPG, PNG и GIF"
+msgstr ""
+
+#: Model/Gallery.php:validation for field img
+msgid "Максимальный размер файла - 1 Мб"
+msgstr ""
+
+#: Model/Gallery.php:validation for field img
+msgid "Ошибка обработки загрузки картинки"
+msgstr ""
+
+#: Model/News.php:validation for field title
+msgid "Введите название"
+msgstr ""
+
+#: Model/News.php:validation for field body
+msgid "Введите текст"
+msgstr ""
+
+#: Model/News.php:validation for field img
+msgid "Максимальный размер картинки 2MB"
+msgstr ""
+
+#: Model/News.php:validation for field img
+msgid "Ошибка обработки обработки картинки"
+msgstr ""
+

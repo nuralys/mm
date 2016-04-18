@@ -1,0 +1,19 @@
+User-agent: Yandex
+Disallow: /admin
+Disallow: /blogs
+Disallow: /news
+Allow: /  
+
+User-agent: Googlebot
+Disallow: /admin
+Disallow: /blogs
+Disallow: /news
+Allow: /  
+
+User-agent: *
+Disallow: /admin
+Disallow: /blogs
+Disallow: /news 
+Allow: / 
+
+Sitemap: http://www.beiskenov.com/sitemap.xml
