@@ -51,7 +51,12 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					</a>
 
 				</div>
-				<nav class="top_menu_admin">
+				
+			</div>
+		</section>
+	</header>
+	<div class="cr">
+		<nav class="top_menu_admin">
 					<div class="top_menu_item">
 						<a href="/admin/news">Новости</a>
 					</div>
@@ -70,12 +75,11 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 					<div class="top_menu_item ">
 						<a href="/admin/pages">Страницы</a>
 					</div>
-					
+					<div class="top_menu_item ">
+						<a href="">Выход</a>
+					</div>
 				</nav>
-			</div>
-		</section>
-	</header>
-	<div class="cr">
+
 		<div class="content_admin">
 
 			<?php echo $this->Session->flash('good'); ?>

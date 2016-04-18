@@ -6,7 +6,7 @@
 	echo $this->Form->input('username', array('label' => '', 'class' => 'admin_input_f', 'placeholder' => 'Логин'));
 	echo $this->Form->input('password', array('label' => '', 'class' => 'admin_input_f', 'placeholder' => 'Пароль'));
 	?>
-	<a href="/users/forgetpwd">Забыли пароль?</a>
+	<a href="/users/forgetpwd" class="zab_pass">Забыли пароль?</a>
 	<?php
 	echo $this->Form->end('Войти');
 ?>

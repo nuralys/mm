@@ -155,6 +155,10 @@ header {
 .big_anons_left img {
     width: 100%;
     display: block;
+    max-height: 394px;
+}
+.search form {
+    display: inline-flex;
 }
 .title_anon {
     position: absolute;
@@ -232,14 +236,10 @@ header {
     column-fill: auto;
 }
 .news_index_list li {
-    /* width: 50%; */
-    float: left;
     margin-bottom: 15px;
-    /* width: 95%; */
+    width: 100%;
     background: #ffffff;
     display: inline-block;
-    /* box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4); */
-    /* margin: 0 0 10% 0; */
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
     column-break-inside: avoid;
@@ -247,6 +247,7 @@ header {
     -moz-transition: all .2s ease;
     -o-transition: all .2s ease;
     transition: all .2s ease;
+    margin-bottom: 25px;
 }
 .news_index_content {
     padding: 0 5px;
@@ -610,6 +611,62 @@ background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiB
     line-height: 28px;
     color: #fff;
     border: 1px solid #6e717d;
+}
+.news_index_list_img img {
+    width: 100%;
+    display: block;
+    max-height: 150px;
+}
+.admin_enter {
+    width: 320px;
+    margin: 0 auto;
+}
+.admin_input_f {
+    width: 100%;
+    height: 32px;
+    border: none;
+    padding: 0px 0px 0px 0px;
+    color: #9c9c9c;
+    font-size: 13px;
+    text-align: left;
+    /* float: right; */
+    outline: none;
+    border: 1px solid #898989;
+    /* border-right: none; */
+    text-indent: 10px;
+    margin-bottom: 15px;
+}
+.title_admin {
+    font-family: "PTSansBold";
+    line-height: 32px;
+    font-size: 16px;
+    color: #fff;
+    background: #00456e;
+    text-transform: uppercase;
+    text-indent: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    clear: both;
+}
+.submit input {
+    background: #00456E;
+    color: #fff;
+    line-height: 32px;
+    font-size: 16px;
+    padding: 0 25px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    /* float: right; */
+}
+.zab_pass {
+    color: #026a91;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    display: block;
+}
+.zab_pass:hover {
+    text-decoration: none;
 }
 @media screen and (max-width: 1044px){
     .cr{
