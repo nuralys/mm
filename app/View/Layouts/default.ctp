@@ -46,7 +46,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		<section class="head">
 			<div class="cr">
 				<div class="logo">
-					<a href="">
+					<a href="/admin">
 						<img src="" alt=""/>
 					</a>
 
@@ -76,7 +76,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 						<a href="/admin/pages">Страницы</a>
 					</div>
 					<div class="top_menu_item ">
-						<a href="">Выход</a>
+						<a href="/users/logout">Выход</a>
 					</div>
 				</nav>
 

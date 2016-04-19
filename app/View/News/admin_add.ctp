@@ -5,15 +5,14 @@
 <?php 
 echo $this->Form->create('News', array('type' => 'file'));
 ?>
+
 <div class="input select">
 <label for="NewsCategoryId">Категория:</label>
 	<select required name="data[News][category_id]" id="NewsCategoryId">
 		<option value="">Выберите категорию</option>
-		<option value="1">Трансформация</option>
-		<option value="2">Производство</option>
-		<option value="3">Экономика</option>
-		<option value="4">Молодежь</option>
-		<option value="5">Стол заказов</option>
+		<?php foreach($categories as $key => $value): ?>
+			<option value="<?=$key?>"><?=$value?></option>
+		<?php endforeach ?>
 	</select>
 </div>
 

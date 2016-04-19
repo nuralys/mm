@@ -181,7 +181,6 @@ class NewsController extends AppController{
 				$this->News->locale = 'ru';
 			}
 			// $this->News->locale = 'ru';
-
 			if($this->News->save($data)){
 				$this->Session->setFlash('Сохранено', 'default', array(), 'good');
 				// debug($data);
@@ -190,6 +189,9 @@ class NewsController extends AppController{
 				$this->Session->setFlash('Ошибка', 'default', array(), 'bad');
 			}
 		}
+			$this->Category->locale = 'ru';
+			$categories = $this->Category->find('list');
+			$this->set(compact('categories'));
 	}
 
 	public function admin_edit($id){
